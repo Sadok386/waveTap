@@ -53,7 +53,19 @@
         android:id="@+id/initialiserMax"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Initialiser Max"
-        android:onClick="reinitialiserMax"/>
+        android:onClick="reinitialiserMax"
+        android:text="Initialiser Max" />
+
+    <TextView
+        android:id="@+id/outputText"
+        android:layout_width="match_parent"
+        android:layout_height="111dp" />
+
+    <Button
+        android:id="@+id/stopMorse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="stopPhrase"
+        android:text="Arreter" />
 
 </LinearLayout>
